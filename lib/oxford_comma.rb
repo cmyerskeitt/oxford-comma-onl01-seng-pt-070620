@@ -1,7 +1,7 @@
 def oxford_comma(array)
   case array.length 
   when 1 
-    puts "kiwi"
+    puts array.join
   when 2 
     puts ""
 end
