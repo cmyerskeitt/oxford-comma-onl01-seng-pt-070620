@@ -3,5 +3,9 @@ def oxford_comma(array)
   when 1 
     puts array.join
   when 2 
-    puts ""
+    puts array.join("and")
+  when 3 
+    puts array.join(",")
+  else
+    
 end
