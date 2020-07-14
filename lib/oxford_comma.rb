@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  case array.length+1 
+  case array.
   when 1 
     puts array.join
   when 2 
